@@ -1,0 +1,29 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.game {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  padding: 8px 12px;
+  border: 2px solid #fff;
+  background: #000;
+  min-width: 120px;
+}
+
+canvas {
+  border: 2px solid #fff;
+  background: #000;
+}
